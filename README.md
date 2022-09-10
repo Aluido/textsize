@@ -1,6 +1,6 @@
 # textsize
 
-Este repositorio aloja el desarrollo para la tarea 1 de Pruebas de Software (INF331).
+Este repositorio aloja el desarrollo para la Tarea 1 de Pruebas de Software (INF331).
 
 ## Descripción:
 
@@ -19,3 +19,16 @@ Para el uso de esta aplicación es necesario tener instalado [Python v3.10](http
 El código de este programa puede ser descargado como un archivo comprimido (ZIP) desde la interfaz de Github.
 
 ## Uso:
+Para usar este programa ejecute el siguiente comando dentro de la carpeta donde descomprimió sus archivos:
+
+> python3 textsize.py
+
+Una vez ejecutado, puede acceder a las diferentes funciones del mismo a través del menú mostrado en pantalla.
+
+## Como contribuir
+
+El autor del script alojado en este repositorio no se responsabiliza a mantener este programa. Si desea contribuir a su desarrollo, está encarecidamente invitado a realizar un fork del presente código.
+
+## Licencia
+
+Este programa está licensiado bajo una Licencia MIT (detalles en [LICENSE.md](LICENSE.md)).
