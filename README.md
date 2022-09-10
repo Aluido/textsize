@@ -21,7 +21,7 @@ El código de este programa puede ser descargado como un archivo comprimido (ZIP
 ## Uso:
 Para usar este programa ejecute el siguiente comando dentro de la carpeta donde descomprimió sus archivos:
 
-> python3 textsize.py
+> python3.10 textsize.py
 
 Una vez ejecutado, puede acceder a las diferentes funciones del mismo a través del menú mostrado en pantalla.
 
