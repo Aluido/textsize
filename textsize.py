@@ -53,7 +53,31 @@ def imprimirTexto():
 		else:
 			print("\nComando Inválido.")
 
+def compararTamanno():
+	if(len(text_stack) == 0):
+		print("No hay cadenas de texto para comparar.\n")
+		return
+	else:
+		print("Ingrese dos posiciones ordinales (partiendo desde 1) de cadenas a comparar.")
+		pos1 = input("Posición primera cadena\n> ")
+		while(not pos1.isnumeric() or int(pos1) > len(text_stack)):
+			pos1 = input("Posición inválida\n> ")
+		pos1 = int(pos1)
 
+		pos2 = input("Posición segunda cadena\n> ")
+		while(not pos2.isnumeric() or int(pos2) > len(text_stack)):
+			pos2 = input("Posición inválida\n> ")
+		pos2 = int(pos2)
+		
+		print("\nComparativa:")
+		print("Tamaño cadena 1:", len(text_stack[pos1-1]))
+		print("Tamaño cadena 2:", len(text_stack[pos2-1]))
+		if(len(text_stack[pos1-1]) > len(text_stack[pos2-1])):
+			print("La cadena 1 (" + text_stack[pos1-1]+ ") es mas larga que la cadena 2 (" + text_stack[pos2-1] + ").\n")
+		else:
+			print("La cadena 2 (" + text_stack[pos2-1]+ ") es mas larga que la cadena 1 (" + text_stack[pos1-1] + ").\n")
+
+		
 
 
 print("Bienvenido a textsize!")
