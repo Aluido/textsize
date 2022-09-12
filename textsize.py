@@ -92,8 +92,10 @@ def compararTamanno():
 		print("Tamaño cadena 2:", len(text_stack[pos2-1]))
 		if(len(text_stack[pos1-1]) > len(text_stack[pos2-1])):
 			print("La cadena 1 (" + text_stack[pos1-1]+ ") es mas larga que la cadena 2 (" + text_stack[pos2-1] + ").\n")
-		else:
+		elif(len(text_stack[pos1-1]) < len(text_stack[pos2-1])):
 			print("La cadena 2 (" + text_stack[pos2-1]+ ") es mas larga que la cadena 1 (" + text_stack[pos1-1] + ").\n")
+		else:
+			print("Las cadenas son del mismo tamaño.")
 
 
 
