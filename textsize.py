@@ -8,7 +8,7 @@ text_stack = []
 def isValid(string):
 	try:
 	    string.encode('ascii')
-	except UnicodeDecodeError:
+	except UnicodeEncodeError:
 		logging.warning("La cadena ingresada posee caracteres invalidos no ASCII.")
 		return False
 	else:
